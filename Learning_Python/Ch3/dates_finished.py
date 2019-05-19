@@ -27,9 +27,8 @@ def main():
   
   # Get the current time
   t = datetime.time(datetime.now())
+  t = datetime.date(datetime.now())
   print ("The current time is ", t)
-  
-  
-if __name__ == "__main__":
-  main();
+
+main()
   

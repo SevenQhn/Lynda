@@ -1,6 +1,6 @@
-#
+# Timedelta 时间间隔计算
 # Example file for working with timedelta objects
-#
+# A timedelta object represents a duration, the difference between two dates or times. 
 
 from datetime import date
 from datetime import time
@@ -8,7 +8,7 @@ from datetime import datetime
 from datetime import timedelta
 
 # construct a basic timedelta and print it
-print (timedelta(days=365, hours=5, minutes=1))
+print (timedelta(days=365, hours=5, minutes=1, seconds=6))
 
 # print today's date
 now = datetime.now()
