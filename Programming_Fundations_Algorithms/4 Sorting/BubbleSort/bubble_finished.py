@@ -1,9 +1,9 @@
 # Bubble sort algorithm
 
-
+# for in for generally mean O(n^2)
 def bubbleSort(dataset):
     # start with the array length and decrement each time
-    for i in range(len(dataset)-1, 0, -1):
+    for i in range(len(dataset)-1, 0, -1): #range(start, stop[, step])
         # examine each item pair
         for j in range(i):
             # swap items if needed

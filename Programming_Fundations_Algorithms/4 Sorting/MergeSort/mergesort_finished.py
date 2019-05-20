@@ -6,12 +6,12 @@ items = [6, 20, 8, 19, 56, 23, 87, 41, 49, 53]
 def mergesort(dataset):
     if len(dataset) > 1:
         mid = len(dataset) // 2
-        leftarr = dataset[:mid]
+        leftarr = dataset[:mid] # include end ,exclude strat！！
         rightarr = dataset[mid:]
 
         # recursively break down the arrays
-        mergeSort(leftarr)
-        mergeSort(rightarr)
+        mergesort(leftarr)
+        mergesort(rightarr)
 
         # now perform the merging
         i=0 # index into the left array
@@ -39,9 +39,12 @@ def mergesort(dataset):
             dataset[k] = rightarr[j]
             j += 1
             k += 1
-
+        print("----")
+        print(leftarr)
+        print(rightarr)
+        print(dataset)
 
 # test the merge sort with data
-print(items)
+# print(items)
 mergesort(items)
-print(items)
+# print(items)
