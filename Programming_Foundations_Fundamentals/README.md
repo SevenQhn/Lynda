@@ -442,9 +442,8 @@
     - **persistence saving the state of program**
     - javascfript 基于web开发 处于安全问题不提供直接写入disk的功能
 - Command happen in this section
-    ```javascript
-        
-    ```
+
+
 >### Reading and writing from the DOM
 - Ponints
     - Script language
