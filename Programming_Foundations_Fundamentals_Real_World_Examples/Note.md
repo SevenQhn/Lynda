@@ -55,3 +55,83 @@
     - add delete will note change the **id** of the list
     - id(a) !== id(a + "asda")
         - in behind sysytem create a new string for new value
+- inheritance 
+- abstraction 
+- encapsulation 
+- polymorphism
+    - Overwriting
+    - Overloading
+- import whole module VS import specific of func from specific mdule
+    ```python
+        import randon
+        random.randit(1,20)
+        ---
+        from randon import randit
+        randit(2,20) #easy But may cause confliction
+        ---
+        random.random()
+        from randon import random
+        randon()# right
+        random.xxx() # wrong multfunction get was right
+        import random as ran
+        from randon import randit as r
+    ```
+- import modules VS import Package
+    - package has a path attribute which points to the folder path
+- Package >> Module
+    ```python
+        import urllib.request
+        urllib.request.xxx()
+        ----
+        import urllib.request as urlReq
+        urllib.__path__ # will retren it path
+    ```
+- List VS Tuple
+    - List
+        - List.shift
+        - List.append()
+        - List[x]
+        - List[x] = "xx"
+        - List.insert(index,"xxsasx")//insert in any postion u want
+        - List.index("xx")// return indedx **first match**
+        - List.pop(index)
+        - List.remove("xx") /// == List.pop(List.index("")
+        - Muliti Dimensional List
+            - Floor row
+            - how to go through rach elemen in multi-demin List
+                ```python
+                    for floor in lot_3d:
+                        for row in floor:
+                            for car in row:
+                                print(car)
+                ```
+    - Tuples
+        - Simliar to list but !! **Immutable**
+        - for simplicity
+            - apply -- for example destination of GPS
+        - [] VS () // () for tuple [] for list in python
+        - ()[x]
+        - ()[x] = xx //!! Report mulfunction
+        - froever frozen in their creation state
+        - impot tkinter
+- Queue vs Stack
+    - Queue note how to prevent infinit locking up
+        - FIFO first in first out
+        - quee() is a block execution
+            - can set another interface to add 
+                - default infinite wait feed item to exe
+            - add to a full queue or get a empty queue will cause shell **stop working**
+            - or 
+                ```python
+                    import queue
+                    q = queue.Queue(2)
+                    q.empty
+                    q.put("asd")
+                    q.full()
+                    q.put_nowait("asd3")
+                ```
+    - Stacks
+        - FILO first in last out
+        - Python no built in fun call stack but could use list to implement it
+            - Since list can easy handle move like -- add and remove items from end
+            - last in last out .pop/.append
