@@ -135,3 +135,19 @@
         - Python no built in fun call stack but could use list to implement it
             - Since list can easy handle move like -- add and remove items from end
             - last in last out .pop/.append
+- Set
+    - Unorder collection of unique values
+    - a = set([x5,x4,x3,x2,x1])
+    - c = a.union(b) combine sets // will remove duplicate items and combine them into one single set
+    - wildwest --> no order at all
+    - len(c)
+    - Sort Sets (zhao peng you)
+        - a.interset(b) // will find common items
+        - a.difference(b) // will find items in a but which is not in b
+        - a.symmertwic_difference(b) //will find items which only in a or b
+    - Add or remove items from sets
+        - "x" in a ? // check if x in set a
+        - a.add()
+        - a.remove("x")//x has to be exist or throw a error
+        - a. pop() //random get one out and deleted 
+
