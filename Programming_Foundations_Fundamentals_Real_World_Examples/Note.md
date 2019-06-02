@@ -150,4 +150,90 @@
         - a.add()
         - a.remove("x")//x has to be exist or throw a error
         - a. pop() //random get one out and deleted 
-
+- Dictionary
+    - Rolodex sorted alphabetically
+    - dict = {"x":262 ,"asx":sad}
+    - dict["sad"] = newValue/(a,b) // add/overwrit a new record to dicct
+    - all key are unique
+    - Davad / Davad(Amenda)
+    - Reverse look ?
+        ```python
+            def caller_id(look_up_number):
+                for name,num in rolodex.items():
+                    if num == look_up_number:
+                        return name #will onmly give first value match 
+                        # the order of the value stored accoding to hash value which mean everytime interperted order changed
+        ```
+- Conditional Excutions
+    - if/ells-if chain
+        - Computer can only make binary choice
+    - has an judge sequence **So the more restrictive options should go near the top**
+    ```python
+        if xxx in xxxx:
+            print("1")
+        elif asd and aasda in asx:
+            print("2")
+        else :
+            print("3")
+    ```
+    - Switch and case statement
+        - for if-else chain if correct answer is on the bottom of the chain efficiency down so we use switch 
+        - Python dont have a actually switch structur BUT **could use dictionary to implement it** it will use hash directly find the value rather ran gow through every node following the chain
+        - NOt when use switch dont forget break statement
+        - **If your program need make decision based on a single variable or expression**
+- Loops
+    - list.remove("xx")
+    - For vs while vs break
+    - for
+        - when you know how many it you need
+    - while 
+        - when you know when your loop need finiash
+    - Break can be used to jump out of the loop once find the target (not like return it just jump out of the current loop can will continue execute the code next to current loop) 
+        - for example : origianl plan is wash all dish but the fact is the container has a capacity celling so add a if/else to prevent outwash happen if full: break
+- Error handling
+    - Error Catching
+        ```python
+            try:
+                wepaeh = urllib.request.urlopen("xxx")
+            except： 
+                print("There is a error happen")
+            else: #note below block will only execut if try report no error
+                for line in webpage
+                    print(line)
+            -----VS # below will execute whatever above is error or not
+            for line in webpage
+                    print(line)
+        ```
+    - try statement
+        - contains a block of code if an error occurs durning the excution, the try statement catches the exception,preventing a crash
+        ```python
+            if xx:
+                raise Exception #generic exception
+            elif xx:
+                raise Exception("Out of the limit")#informative exception//not alwways include the information of the error make it useful
+            else:
+                xxxx
+        ```
+    - custom errors
+        - Most language has inbuilt error types
+        - PYTHON allOW user define custom error class inherit from inbuilt parent generic error class
+        - Note if u want specific specific type of except yourself you have to deal with generic err also use excepr:xxxx
+- Polling and Event-driven program
+    - polling 
+        - keep tracking some condition think piza man coming without ring work
+        - DONT suse a **free run** while loop to implement a polling routine
+        - when use polling routine make sure include some delay mechanism in the loop
+        ```python
+            import time
+            while():
+                xxx
+                time.sleep(1)
+        ```
+- Event Driven
+    - can only handle a event once a time IMPORTANT
+        mean there will be a queue here if something happen when ongoning event not finish
+    - tkinter module 
+        - For creating graphical user interfaces
+        - Easy way to demo event-driven programming
+    - Event handler
+    - time.sleep(x) //wait x seconds then execue next line
