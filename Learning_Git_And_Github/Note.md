@@ -31,5 +31,45 @@
 `git branch`
 `git branch -a`
 `git checkout master`
+- Creater branch from specific commit point
 `git branch newBranchName CommitHashCode`
+`git brawnch newBranchName defaultIsCurrentBranch`
+- Create branch from where your pwd are and switch to that branh right now
+`git checkout -b NewBranchName `
 - git checkout is quite flexible command
+- merge current branch into current branch
+`git checkout master`+`git merge branchName`
+- change your branch name
+`git branch -m oldName newName`
+- delete a branch
+`git branch -D branchName1 branchName2 branchName3`
+- Colone a git repository but only have access to master branch (other branches are hidden)
+`pwd`
+`cd positionYouWantYourColoneFileIn`
+`git colone Url`
+`gitignore`
+`README`
+`package.json`
+---
+`git branch -a` see the hidden branches
+---
+< Recommend course Ray Villalobos-Angular.js>
+- Coloning individual branches
+`pwd`
+`cd positionYouWantYourColoneFileIn`
+`git colone Url`
+`git branch -a`
+`git checkout -b branch`
+----
+`git colone -b BranchName Url`
+- Coloning all branches
+`pwd`
+`cd positionYouWantYourColoneFileIn`
+`git clone --mirror Url .git`
+> then no actual fiels show in working directory
+`git config --bool core.bare false`
+> above command will turn a bare repo folder into a real one
+`git reset --hard`
+- HARD HEAD VS SOFT 
+- Use exist branch as your template
+`rm -dfr .git`
