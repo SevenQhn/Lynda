@@ -27,3 +27,9 @@
 `git log`
 - pull commit out to your workingdirectory
 `git checkout hashCode.log`
+- branch
+`git branch`
+`git branch -a`
+`git checkout master`
+`git branch newBranchName CommitHashCode`
+- git checkout is quite flexible command
