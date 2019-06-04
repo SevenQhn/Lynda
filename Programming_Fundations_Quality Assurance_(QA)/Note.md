@@ -1,0 +1,116 @@
+# Programming fundations Quality Assurance
+
+## Introduction
+- What is QA?
+    - Asystematic process used to determine whether a product meets specifications
+    - Specialists in Software Testing
+        - QA 
+        - QA engineer 
+        - QA analyst 
+        - Software engineer in test
+        - Tester
+    - Ensure the team is building the right product
+    - Help team move quickly with confidence
+    - **Establish** and **maintain** **standards**
+- How to ensyre quality
+    - CLEAR SPECIFICATION
+    - Clear specifications
+    - Code tested
+    - Code release
+    - Ongoing process
+## The role of QA
+- Roles and responsibilities
+    - Technical aptitude
+    - Business knowlege
+    - DevOps principles
+    - Process and Release expertise
+- Get involved throughout the SDLC
+    - Plan
+        - identifu risks
+        - identify use cases
+    - Define
+        - write specific and acceptance criteria
+        - decide what's in scoope
+        - write test strategy   
+    - Design and build
+        - Solidify test scenarios
+        - Get feedback on scenarios from team
+        - maual/autoation test
+    - Test
+        - maual/autoation test
+        - Acceptance testing
+    - Deploy
+        - Validate Functionality
+        - Release
+        - Test in product
+- Collaborate with the team
+    - Developer 
+        - Pair on writing tests
+        - Validate functionality
+    - Designer 
+        - feedback on mocks or prototype
+        - feedback on UI/UX
+    - QA 
+    - PM/Business analyst 
+        - acceptance criteria and scope
+        - feedback on test scenarios
+- Set expectations and Goal
+    - share / **communication!!**
+    - one-one meeting retrospective sesions
+## Test Planning
+- Create a test strategy
+    - a nice template included in tis section
+- Make a test plan ecxel each row is a scnario for each feature/send the result to participants before meeting Living document
+    - Scenario
+    - Expected result
+    - Latest result P/F
+    - Automated T/F
+- Write **acceptance criteria**
+    - Conditions tha a software product must to staisfy to be accepted by a stake holder
+    - look and function
+    - Specific formate
+        - Given / When / Then
+        - Given l am viewing an item that is sold out / When l press the add to cart button / Then the item is not added to the cart/And l see a message that the tiem is out of stock
+- Identify when testing is complete
+    - **Definition of done**
+## Types of Testing QA Focuses On
+- Box testing (QA)
+    - Black Box
+        - Manual testing
+        - UI automation testing
+    - Grey Box (QA + DEV)
+        - Integration testing
+    - White Box (DEV alongside develpment)
+        - Unit system
+- Manual testing(TEST)
+- UI automation testing(BUILD-TEST)
+    - Automate scrpting (take half manul into auto first)
+- Integration testing
+    - INteraction between application components lower level of app
+- Performance testing
+    - Load
+    - Stress
+    - Endurance
+- Security testing
+    - SQL injection
+    - DoS denial of service
+    - vulnerable dependencies
+## Bug Reporting
+- Identify Bugs
+    - bug 1946 real bug on relay calculator moth
+    - dispensed
+- Report 
+    - JIra/Rally/Github/Bugzilla
+    - find the one suit the project best
+- Triage bugs
+    - Severity / Priority
+    - + plot to position them
+- Communicate bugs to the team
+    - make excel to classify them and share it with the team
+- Getting bugs fixed
+    - Set goals of fix then bug 
+    - ideally according to sprint
+- Have bug bashes
+    - 2/4 Year
+## Conclusion
+- Next Steps
