@@ -6,9 +6,8 @@ import xml.dom.minidom
 
 def main():
   # use the parse() function to load and parse an XML file
-  doc = xml.dom.minidom.parse("Ch5/samplexml.xml")
+  doc = xml.dom.minidom.parse("samplexml.xml")
   
-  print(doc._get_childNodes())
   # print out the document node and the name of the first child tag
   print (doc.nodeName)
   print (doc.firstChild.tagName)

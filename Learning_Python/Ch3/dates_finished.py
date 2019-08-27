@@ -2,7 +2,7 @@
 # Example file for working with date information
 #
 
-from datetime import date # from MODULE import CLASS
+from datetime import date
 from datetime import time
 from datetime import datetime
 
@@ -27,8 +27,9 @@ def main():
   
   # Get the current time
   t = datetime.time(datetime.now())
-  t = datetime.date(datetime.now())
   print ("The current time is ", t)
-
-main()
+  
+  
+if __name__ == "__main__":
+  main();
   

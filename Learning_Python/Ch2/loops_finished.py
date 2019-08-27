@@ -19,7 +19,7 @@ def main():
   for d in days:
     print (d)
   
-  # use the break and continue statements python called iterate Exclude second argues
+  # use the break and continue statements
   for x in range(5,10):
     #if (x == 7): break
     #if (x % 2 == 0): continue
